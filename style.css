@@ -1,0 +1,61 @@
+body{
+    background-color:antiquewhite
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    
+}
+.img{
+    border-radius:8px;
+    width:150px;
+
+}
+.card{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.perfume{
+    color:grey;
+}
+.expression{
+    font-size:30px;
+}
+.description{
+    color:gray;
+    opacity:0.9;
+}
+.discount{
+    color:green;
+    font-weight:bold;
+    font-size:50px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-direction:column;
+    margin:0;
+
+
+
+}
+.amount{
+    color:gray;
+    display:flex;
+    margin-top:0;
+
+
+
+}
+.button{
+   background-color:rgb(28, 151, 28);
+   border-radius:18px;
+   color:white;
+
+
+}
+.button:hover{
+    background-color:rgb(4, 71, 60);
+}
